@@ -35,7 +35,7 @@ Deploying Karan
 
 The steps for deploying Karan are as follows.
 
-- Download the Karan Installer. The link referenced is correct as at January 2018.
+- Download the karan-installer_. The link referenced is correct as at January 2018.
 - Deploy a Windows virtual machine running Windows 2012 R2 or Windows 2016 RTM
 - Enable PowerShell remote execution on the Karan Windows VM:
 .. note:: enable-psremoting
@@ -78,3 +78,5 @@ Congratulations you have successfully configured a guest VM and Karan!
 
 
 .. _nutanix-documentation: https://portal.nutanix.com/#/page/docs/details?targetId=Nutanix-Calm-Admin-Operations-Guide-v10:nuc-installing-karan-service-t.html
+
+.. _karan-installer: http://download.nutanix.com/calm/Karan/1.6.0/Karan-1.6.0.0.exe

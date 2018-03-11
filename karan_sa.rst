@@ -31,7 +31,7 @@ In order for Calm to work with Windows virtual machines, an additional step is r
 Before you begin
 ================
 
-- The Karan service will be installed on Windows Server 2012 R2.
+- The Karan service will be installed on a Windows Server 2012 R2 VM.
 - Your Windows Server should always be up and running to support Calm automation for windows.
 - Powershell 3.0 or onwards should be installed on the Karan server.
 - .Net framework 4.0 or 4.5 should be installed on the Karan server.
@@ -41,7 +41,7 @@ Deploying Karan
 
 The steps for deploying Karan are as follows.
 
-- Download the karan-installer_. The link referenced is correct as at January 2018.
+- Download the karan-installer_. The link referenced is correct as of January 2018.
 - Deploy a Windows virtual machine running Windows 2012 R2.
 - Enable PowerShell remote execution on the Karan Windows VM:
 
@@ -63,7 +63,7 @@ The steps for deploying Karan are as follows.
     
 - Run the Karan installer and, when prompted, populate the fields as follows.
 - Select http or https as required
-- Set the port to 8090 (note that this must not be changed and port 8090 must be allowed through the Windows firewall on both host and client VMs)
+- Set the port to 8090 (note that this must not be changed and port 8090 must be allowed through the Windows firewall on both the host and client VMs)
 - Set the number of Karan instances (leave as 1 for demo environments)
 - Enter the hostname or IP address of the Karan instance. This hostname or IP address must be accessible from the Calm/Prism Central VM!
 - Set the gateway UUID to:
@@ -103,7 +103,7 @@ Using Karan
 
 Karan itself isn’t ‘used’ in the traditional sense i.e. there’s no Karan ‘application’. By installing Karan and having it available for Calm itself to use, PowerShell scripts will be automatically ‘proxied’ through the Karan instance, when required.
 
-.. note:: When deploying or working with Windows VMs from Calm, the only change that is required is to set the operating system to Windows, as opposed to Linux (the default).  
+.. note:: When deploying or working with Windows VMs from Calm, the only change required is to set the operating system to Windows, as opposed to Linux (the default).  
 
 
 Takeaways

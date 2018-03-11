@@ -34,6 +34,7 @@ Configure Karan
 Deploying Karan
 
 The steps for deploying Karan are as follows.
+
 - Download the Karan Installer. The link referenced is correct as at January 2018.
 - Deploy a Windows virtual machine running Windows 2012 R2 or Windows 2016 RTM
 - Enable PowerShell remote execution on the Karan Windows VM:

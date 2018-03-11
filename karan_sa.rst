@@ -25,7 +25,7 @@ In order for Calm to work with Windows virtual machines, an additional step is r
 
 What is Karan? Put simply, Karan is a component that allows the Calm services to run PowerShell scripts on Windows virtual machines. Think of Karan as a “translation” layer between Calm and the Windows VMs.
 
-.. Note :: The official reference for deploying Karan is located in the Nutanix Documentation. This guide is not intended as a replacement for the official documentation.
+.. note:: The official reference for deploying Karan is located in the nutanix_documentation_. This guide is not intended as a replacement for the official documentation.
 
 
 Configure Karan
@@ -75,3 +75,6 @@ Takeaways
 *********
 
 Congratulations you have successfully configured a guest VM and Karan! 
+
+
+_nutanix_documentation:: https://portal.nutanix.com/#/page/docs/details?targetId=Nutanix-Calm-Admin-Operations-Guide-v10:nuc-installing-karan-service-t.html

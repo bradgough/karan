@@ -77,4 +77,4 @@ Takeaways
 Congratulations you have successfully configured a guest VM and Karan! 
 
 
-_nutanix-documentation:: https://portal.nutanix.com/#/page/docs/details?targetId=Nutanix-Calm-Admin-Operations-Guide-v10:nuc-installing-karan-service-t.html
+.. _nutanix-documentation: https://portal.nutanix.com/#/page/docs/details?targetId=Nutanix-Calm-Admin-Operations-Guide-v10:nuc-installing-karan-service-t.html

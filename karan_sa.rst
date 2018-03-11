@@ -17,8 +17,9 @@ Estimated time to complete: **30mins**
 - Solutions: Mark Lavi, Andy Schmid
 
 
-Configure Guest VM
+Configure Karan
 ******************
+
 Using Windows with Calm
 
 In order for Calm to work with Windows virtual machines, an additional step is required. After deploying Prism Central and completing the configuration of Calm itself, an additional virtual machine must be deployed that runs the ‘Karan’ service.
@@ -26,10 +27,6 @@ In order for Calm to work with Windows virtual machines, an additional step is r
 What is Karan? Put simply, Karan is a component that allows the Calm services to run PowerShell scripts on Windows virtual machines. Think of Karan as a “translation” layer between Calm and the Windows VMs.
 
 .. note:: The official reference for deploying Karan is located in the nutanix-documentation_. This guide is not intended as a replacement for the official documentation.
-
-
-Configure Karan
-******************
 
 Deploying Karan
 

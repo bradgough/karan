@@ -32,7 +32,7 @@ Before you begin
 ================
 
 - The Karan service will be installed on Windows Server 2012 R2.
-- Your Windows Server should always be up and running to support windows automation.
+- Your Windows Server should always be up and running to support Calm automation for windows.
 - Powershell 3.0 or onwards should be installed on the Karan server.
 - .Net framework 4.0 or 4.5 should be installed on the Karan server.
 

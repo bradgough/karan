@@ -78,7 +78,7 @@ The steps for deploying Karan are as follows.
 
 .. code-block:: bash
 
-    http://<prism_central_hostname_or_ip_address>:8090
+    http://<prism_central_hostname_or_ip_address>:8090   **Make sure to use http not https**
 
 .. note:: Don't forget to specify the port, as per the example above! 
 

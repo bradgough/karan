@@ -6,7 +6,7 @@ Karan Configuration SA
 Overview
 *********
 
-In the lab participants will deploy a Windows 2012 Server Guest VM and provision it with Karan which is used as a proxy for Calm automation.
+In this lab, participants will deploy a Windows 2012 Server Guest VM and provision it with Karan.  Karan is used as a proxy for Calm automation.
 
 Karan is a component that allows the Calm services to run PowerShell scripts on Windows virtual machines. Think of Karan as a “translation” layer between Calm and the Windows VMs.
 
